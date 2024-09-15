@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "transparentcarpet",
+	"version": "1.0.1",
+	"name": "Transparent Carpet",
+	"description": "Makes carpet blocks support transparency",
+	"authors": [
+		"Embin"
+	],
+	"contact": {
+		"sources": "https://github.com/NotEmbin/transparent_carpet"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/transparentcarpet/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"embin.transparentcarpet.TransparentCarpetClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ["1.21-rc1","1.21", "1.21.1-rc1", "1.21.1"],
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
