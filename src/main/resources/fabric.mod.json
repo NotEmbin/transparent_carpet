@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "transparentcarpet",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"name": "Transparent Carpet",
 	"description": "Makes carpet blocks support transparency",
 	"authors": [
@@ -20,7 +20,7 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": ["1.21-rc1","1.21", "1.21.1-rc1", "1.21.1"],
+		"minecraft": ["1.21-rc.1","1.21", "1.21.1-rc.1", "1.21.1"],
 		"java": ">=21",
 		"fabric-api": "*"
 	},
